@@ -15,7 +15,7 @@ var ten = require('ten');
 <script type="text/javascript" src="./ten.js"></script>
 ```
 
-##### Basic 5
+##### Basic 10
 ```javascript
 ten(); // 5
 ```
@@ -48,7 +48,7 @@ ten.smooth() // l0
 ten.mdTenDividedByTenDividedByFive() // d3d9446802a44259755d38e6d163e820
 ```
 
-##### 5 goes multilingual
+##### 10 goes multilingual
 ```javascript
 ten.albanian() = 'dhjetë';
 ten.arabic() = 'عشرة';
@@ -104,6 +104,7 @@ ten.welsh() = 'deg';
 ```javascript
 ten.binary(); // 1010
 ten.octal(); // 12
+ten.decimal(); //10
 ten.hex(); // a
 ten.base(4); // 22
 ten.base(3); // 31
