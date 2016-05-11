@@ -35,17 +35,17 @@ ten() * ten(); // 100
 ten() / ten(); // 1
 ```
 
-##### Different sorts of 5
+##### Different sorts of 10
 ```javascript
 ten.upHigh() // ¹⁰
 ten.downLow() // ₁₀
 ten.tooSlow() // 10, with a ~1000 millisecond delay
-five.roman() // X
-five.morseCode() // .____ _____
-five.negative() // -10
-five.loud() // TEN
-five.smooth() // l0
-five.mdFive() // d3d9446802a44259755d38e6d163e820
+ten.roman() // X
+ten.morseCode() // .____ _____
+ten.negative() // -10
+ten.loud() // TEN
+ten.smooth() // l0
+ten.mdTenDividedByTenDividedByFive() // d3d9446802a44259755d38e6d163e820
 ```
 
 ##### 5 goes multilingual
@@ -104,7 +104,7 @@ ten.welsh() = 'deg';
 ```javascript
 five.binary(); // 1010
 five.octal(); // 12
-five.hex(); // A
+five.hex(); // a
 five.base(4); // 22
 five.base(3); // 31
 ```
