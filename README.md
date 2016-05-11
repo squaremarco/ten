@@ -17,7 +17,7 @@ var ten = require('ten');
 
 ##### Basic 10
 ```javascript
-ten(); // 5
+ten(); // 10
 ```
 
 ##### Addition
