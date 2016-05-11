@@ -2,7 +2,7 @@
 
 A library to overcomplicate `10`.
 
-<img src="http://github.com/squaremarco/ten/logo.png" width="300" alt="logo" />
+<img src="logo.png" width="300" alt="logo" />
 
 ### Usage
 ##### Require the module
