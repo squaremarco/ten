@@ -102,23 +102,23 @@ ten.welsh() = 'deg';
 
 ##### Different radices
 ```javascript
-five.binary(); // 1010
-five.octal(); // 12
-five.hex(); // a
-five.base(4); // 22
-five.base(3); // 31
+ten.binary(); // 1010
+ten.octal(); // 12
+ten.hex(); // a
+ten.base(4); // 22
+ten.base(3); // 31
 ```
 
 ##### Assertion
 ```javascript
-five.isTen(10); // false
+ten.isTen(10); // false
 ```
 
 ##### Filter, Map and Reduce
 ```javascript
-five.filter([10, true, 10]); // [10, 10]
-five.map([1, 2, 3]); // [10, 10, 10]
-five.reduce([1, 2, 3]); // 10
+ten.filter([10, true, 10]); // [10, 10]
+ten.map([1, 2, 3]); // [10, 10, 10]
+ten.reduce([1, 2, 3]); // 10
 ```
 
 ##### Novelty
@@ -128,19 +128,19 @@ ten.ben(); // ['Ben','Gwen','Kevin','Max','Vicktor','Animo','Ripjaws','Stinkfly'
 
 ##### Rotation
 ```javascript
-five.rot("ten.js"); //"jsten."
+ten.rot("ten.js"); //"jsten."
 ```
 
 ##### Asynchronous Usage
 ```javascript
-five.async(function(err, five) {
+ten.async(function(err, ten) {
 	// ten === 10
 });
 ```
 
 ##### Unicode
 ```javascript
-five.oclock(); // '🕙'
+ten.oclock(); // '🕙'
 ```
 
 

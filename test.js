@@ -27,10 +27,10 @@ assert.equal('lo', ten.smooth(), 'A smooth ten should be lo');
 assert.equal('🕙', ten.oclock(), 'A unicode symbol for ten o\'clock should be U+1F559');
 
 var now = new Date().valueOf();
-var slowFive = ten.tooSlow();
+var slowTen = ten.tooSlow();
 var finishes = new Date().valueOf();
 
-assert.equal(10, slowFive, 'A too slow ten should still be ten');
+assert.equal(10, slowTen, 'A too slow ten should still be ten');
 assert.ok((finishes - now) > 1000, 'A too slow ten should take longer than 1000 milliseconds to be returned, blocking execution and generally being a bad idea');
 
 

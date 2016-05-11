@@ -1,0 +1,106 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish',
+1 verbose cli   './' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ './' ]
+6 verbose cache add [ './', null ]
+7 verbose cache add name=undefined spec="./" args=["./",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: './',
+8 verbose parsed url   path: './',
+8 verbose parsed url   href: './' }
+9 silly lockFile 0ee6c175- ./
+10 verbose lock ./ C:\Users\square\AppData\Roaming\npm-cache\0ee6c175-.lock
+11 verbose tar pack [ 'C:\\Users\\square\\AppData\\Roaming\\npm-cache\\tenJS\\0.1.0\\package.tgz',
+11 verbose tar pack   './' ]
+12 verbose tarball C:\Users\square\AppData\Roaming\npm-cache\tenJS\0.1.0\package.tgz
+13 verbose folder ./
+14 info prepublish tenJS@0.1.0
+15 silly lockFile 04cb2bca-tar tar://./
+16 verbose lock tar://./ C:\Users\square\AppData\Roaming\npm-cache\04cb2bca-tar.lock
+17 silly lockFile 94b7eead-pm-cache-tenJS-0-1-0-package-tgz tar://C:\Users\square\AppData\Roaming\npm-cache\tenJS\0.1.0\package.tgz
+18 verbose lock tar://C:\Users\square\AppData\Roaming\npm-cache\tenJS\0.1.0\package.tgz C:\Users\square\AppData\Roaming\npm-cache\94b7eead-pm-cache-tenJS-0-1-0-package-tgz.lock
+19 silly lockFile 04cb2bca-tar tar://./
+20 silly lockFile 04cb2bca-tar tar://./
+21 silly lockFile 94b7eead-pm-cache-tenJS-0-1-0-package-tgz tar://C:\Users\square\AppData\Roaming\npm-cache\tenJS\0.1.0\package.tgz
+22 silly lockFile 94b7eead-pm-cache-tenJS-0-1-0-package-tgz tar://C:\Users\square\AppData\Roaming\npm-cache\tenJS\0.1.0\package.tgz
+23 silly lockFile 38f21d4a-ng-npm-cache-tenJS-0-1-0-package C:\Users\square\AppData\Roaming\npm-cache\tenJS\0.1.0\package
+24 verbose lock C:\Users\square\AppData\Roaming\npm-cache\tenJS\0.1.0\package C:\Users\square\AppData\Roaming\npm-cache\38f21d4a-ng-npm-cache-tenJS-0-1-0-package.lock
+25 silly lockFile 38f21d4a-ng-npm-cache-tenJS-0-1-0-package C:\Users\square\AppData\Roaming\npm-cache\tenJS\0.1.0\package
+26 silly lockFile 38f21d4a-ng-npm-cache-tenJS-0-1-0-package C:\Users\square\AppData\Roaming\npm-cache\tenJS\0.1.0\package
+27 silly lockFile 0ee6c175- ./
+28 silly lockFile 0ee6c175- ./
+29 silly publish { name: 'tenJS',
+29 silly publish   version: '0.1.0',
+29 silly publish   description: 'Gives you ten',
+29 silly publish   main: 'ten.js',
+29 silly publish   scripts: { test: 'node test && echo' },
+29 silly publish   repository: { type: 'git', url: 'https://github.com/squaremarco/ten.git' },
+29 silly publish   dependencies: { five: 'git+https://github.com/jackdcrawford/five' },
+29 silly publish   keywords: [ 'ten' ],
+29 silly publish   author: { name: 'Marco Cesi', email: 'sq@iamsquare.it' },
+29 silly publish   license: 'MIT',
+29 silly publish   bugs: { url: 'https://github.com/squaremarco/ten/issues' },
+29 silly publish   homepage: 'https://github.com/squaremarco/ten',
+29 silly publish   devDependencies: {},
+29 silly publish   readme: '# ten.js\r\n\r\nA library to overcomplicate `10`.\r\n\r\n<img src="logo.png" width="300" alt="logo" />\r\n\r\n### Usage\r\n##### Require the module\r\n```javascript\r\nvar ten = require(\'ten\');\r\n```\r\n\r\n##### In the browser\r\n```html\r\n<script type="text/javascript" src="./ten.js"></script>\r\n```\r\n\r\n##### Basic 5\r\n```javascript\r\nten(); // 5\r\n```\r\n\r\n##### Addition\r\n```javascript\r\nten() + ten(); // 20\r\n```\r\n\r\n##### Multiplication\r\n```javascript\r\nten() * ten(); // 100\r\n```\r\n\r\n##### Division\r\n```javascript\r\nten() / ten(); // 1\r\n```\r\n\r\n##### Different sorts of 10\r\n```javascript\r\nten.upHigh() // ¹⁰\r\nten.downLow() // ₁₀\r\nten.tooSlow() // 10, with a ~1000 millisecond delay\r\nten.roman() // X\r\nten.morseCode() // .____ _____\r\nten.negative() // -10\r\nten.loud() // TEN\r\nten.smooth() // l0\r\nten.mdTenDividedByTenDividedByFive() // d3d9446802a44259755d38e6d163e820\r\n```\r\n\r\n##### 5 goes multilingual\r\n```javascript\r\nten.albanian() = \'dhjetë\';\r\nten.arabic() = \'عشرة\';\r\nten.azerbaijani() = \'on\';\r\nten.basque() = \'hamar\';\r\nten.belarusian() = \'дзесяць\';\r\nten.bosnian() = \'deset\';\r\nten.bulgarian() = \'десет\';\r\nten.catalan() = \'deu\';\r\nten.chinese() = \'十\';\r\nten.croatian() = \'deset\';\r\nten.czech() = \'deset\';\r\nten.dutch() = \'tien\';\r\nten.english() = \'ten\';\r\nten.estonian() = \'kümme\';\r\nten.finnish() = \'kymmenen\';\r\nten.french() = \'dix\';\r\nten.german() = \'zehn\';\r\nten.greek() = \'δέκα\';\r\nten.hebrew() = \'עשר\';\r\nten.hindi() = \'दस\';\r\nten.hungarian() = \'tíz\';\r\nten.icelandic() = \'tíu\';\r\nten.indonesian() = \'sepuluh\';\r\nten.irish() = \'deich\';\r\nten.italian() = \'cinque\';\r\nten.japanese() = \'十\';\r\nten.kannada() = \'ಹತ್ತುು\';\r\nten.korean() = \'열\';\r\nten.latvian() = \'desmit\';\r\nten.lithuanian() = \'desmit\';\r\nten.mongolian() = \'Арван\';\r\nten.norwegian() = \'ten\';\r\nten.persian() = \'ده\';\r\nten.polish() = \'dziesięć\';\r\nten.portuguese() = \'dez\';\r\nten.romanian() = \'zece\';\r\nten.russian() = \'десять\';\r\nten.serbian() = \'десет\';\r\nten.slovakian() = \'desiatka\';\r\nten.slovenian() = \'deset\';\r\nten.spanish() = \'decena\';\r\nten.swedish() = \'tio\';\r\nten.tamil() = \'பத்துு\';\r\nten.telugu() = \'పదిు\';\r\nten.turkish() = \'on\';\r\nten.thai() = \'สิบ\';\r\nten.ukrainian() = \'десять\';\r\nten.welsh() = \'deg\';\r\n```\r\n\r\n##### Different radices\r\n```javascript\r\nten.binary(); // 1010\r\nten.octal(); // 12\r\nten.hex(); // a\r\nten.base(4); // 22\r\nten.base(3); // 31\r\n```\r\n\r\n##### Assertion\r\n```javascript\r\nten.isTen(10); // false\r\n```\r\n\r\n##### Filter, Map and Reduce\r\n```javascript\r\nten.filter([10, true, 10]); // [10, 10]\r\nten.map([1, 2, 3]); // [10, 10, 10]\r\nten.reduce([1, 2, 3]); // 10\r\n```\r\n\r\n##### Novelty\r\n```javascript\r\nten.ben(); // [\'Ben\',\'Gwen\',\'Kevin\',\'Max\',\'Vicktor\',\'Animo\',\'Ripjaws\',\'Stinkfly\',\'Four Arms\',\'Heatblast\']\r\n```\r\n\r\n##### Rotation\r\n```javascript\r\nten.rot("ten.js"); //"jsten."\r\n```\r\n\r\n##### Asynchronous Usage\r\n```javascript\r\nten.async(function(err, ten) {\r\n\t// ten === 10\r\n});\r\n```\r\n\r\n##### Unicode\r\n```javascript\r\nten.oclock(); // \'🕙\'\r\n```\r\n\r\n\r\n##### Tests\r\n```\r\nnpm test\r\n```\r\n### License\r\nMIT\r\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: '2f3e9861bf0ecd3fa1d2a68642cf574dfdd2a71a',
+29 silly publish   _id: 'tenJS@0.1.0',
+29 silly publish   _shasum: '85e39ddf627b36e4e716728893f234df4ee43c46',
+29 silly publish   _from: './' }
+30 verbose request where is /tenJS
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id b59d290d38709ec8
+33 verbose url raw /tenJS
+34 verbose url resolving [ 'https://registry.npmjs.org/', './tenJS' ]
+35 verbose url resolved https://registry.npmjs.org/tenJS
+36 verbose request where is https://registry.npmjs.org/tenJS
+37 info trying registry request attempt 1 at 23:34:22
+38 http PUT https://registry.npmjs.org/tenJS
+39 http 403 https://registry.npmjs.org/tenJS
+40 verbose headers { 'content-type': 'application/json',
+40 verbose headers   'cache-control': 'max-age=300',
+40 verbose headers   'content-length': '128',
+40 verbose headers   'accept-ranges': 'bytes',
+40 verbose headers   date: 'Wed, 11 May 2016 21:34:17 GMT',
+40 verbose headers   via: '1.1 varnish',
+40 verbose headers   connection: 'keep-alive',
+40 verbose headers   'x-served-by': 'cache-lhr6323-LHR',
+40 verbose headers   'x-cache': 'MISS',
+40 verbose headers   'x-cache-hits': '0',
+40 verbose headers   'x-timer': 'S1463002454.981610,VS0,VE2366',
+40 verbose headers   vary: 'Accept-Encoding' }
+41 error publish Failed PUT 403
+42 error Error: "You cannot publish over the previously published version 0.1.0. Try bumping the version to 1.0.0" : tenJS
+42 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:308:14)
+42 error     at Request._callback (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:246:65)
+42 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:236:22)
+42 error     at Request.emit (events.js:98:17)
+42 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1142:14)
+42 error     at Request.emit (events.js:117:20)
+42 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:1096:12)
+42 error     at IncomingMessage.emit (events.js:117:20)
+42 error     at _stream_readable.js:943:16
+42 error     at process._tickCallback (node.js:419:13)
+43 error If you need help, you may report this *entire* log,
+43 error including the npm and node versions, at:
+43 error     <http://github.com/npm/npm/issues>
+44 error System Windows_NT 6.2.9200
+45 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish" "./"
+46 error cwd D:\GitHub\ten
+47 error node -v v0.10.32
+48 error npm -v 1.4.28
+49 verbose exit [ 1, true ]
