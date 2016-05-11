@@ -1,24 +1,24 @@
 {
-  "name": "ten",
-  "version": "0.1.0",
-  "description": "Gives you ten",
-  "main": "ten.js",
-  "scripts": {
-    "test": "node test && echo ✔"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/squaremarco/ten.git"
-  },
-  "dependencies": {
-    "five": "jackdcrawford/five"
-  },
-  "keywords": [
-    "ten"
-  ],
-  "author": "Marco Cesi <sq@iamsquare.it>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/squaremarco/ten/issues"
-  }
+	"name": "ten",
+	"version": "0.1.0",
+	"description": "Gives you ten",
+	"main": "ten.js",
+	"scripts": {
+		"test": "node test && echo ✔"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/squaremarco/ten.git"
+	},
+	"dependencies": {
+		"five": "jackdcrawford/five"
+	},
+	"keywords": [
+		"ten"
+	],
+	"author": "Marco Cesi <sq@iamsquare.it>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/squaremarco/ten/issues"
+	}
 }

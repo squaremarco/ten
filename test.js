@@ -17,12 +17,12 @@ assert.equal('20', ten.base(5), 'A quinary ten should be 20');
 assert.equal('22', ten.base(4), 'An quaternary ten should be 22');
 assert.equal('1010', ten.binary(), 'A binary ten should be 1010');
 assert.equal('12', ten.octal(), 'An octal ten should be 12');
-assert.equal('A', ten.hex(), 'An hexadecimal ten should be A');
-assert.equal('d3d9446802a44259755d38e6d163e820', ten.mdFive(), 'md5 checksum of "ten" should be d3d9446802a44259755d38e6d163e820');
+assert.equal('A', ten.hex().toUpperCase(), 'An hexadecimal ten should be A');
+assert.equal('d3d9446802a44259755d38e6d163e820', ten.mdTenDividedByTenDividedByFive(), 'md5 checksum of "ten" should be d3d9446802a44259755d38e6d163e820');
 
 assert.equal('-10', ten.negative(), 'A negative ten should be -10');
 assert.equal('TEN', ten.loud(), 'A loud ten should be TEN');
-assert.equal('l0', ten.smooth(), 'A smooth ten should be l0');
+assert.equal('lo', ten.smooth(), 'A smooth ten should be lo');
 
 assert.equal('🕙', ten.oclock(), 'A unicode symbol for ten o\'clock should be U+1F559');
 
@@ -37,7 +37,7 @@ assert.ok((finishes - now) > 1000, 'A too slow ten should take longer than 1000 
 assert.equal(JSON.stringify(['Ben','Gwen','Kevin','Max','Vicktor','Animo','Ripjaws','Stinkfly','Four Arms','Heatblast']), JSON.stringify(ten.ben()), 'A Ben10 should be ten characters of Ben10 cartoon.');
 
 assert.equal(true, ten.isTen(ten()));
-assert.equal(false, ten.isTen(10));
+assert.equal(false, ten.isTen(5));
 
 assert.equal(JSON.stringify([10, 10]), JSON.stringify(ten.filter([10, true, 10])));
 assert.equal(JSON.stringify([10, 10, 10]), JSON.stringify(ten.map([1, 2, 3])));

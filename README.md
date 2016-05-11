@@ -1,172 +1,148 @@
-# five.js
+# ten.js
 
-A library to overcomplicate `5`.
-
-[![Build Status](https://travis-ci.org/jackdcrawford/five.svg?branch=master)](https://travis-ci.org/jackdcrawford/five)
-[![Code Climate](https://codeclimate.com/github/jackdcrawford/five.png)](https://codeclimate.com/github/jackdcrawford/five)
-[![Test Coverage](https://codeclimate.com/github/jackdcrawford/five/coverage.png)](https://codeclimate.com/github/jackdcrawford/five)
+A library to overcomplicate `10`.
 
 <img src="https://cldup.com/kwFz0lhg1u.png" width="300" alt="logo" />
-
-DONATE: [Give us five](https://www.paypal.me/fivejs/5/)
-
-> *Seriously, we'll be printing stickers and mailing to all contributors of the project. All remaining money will be passed on to a charity.*
 
 ### Usage
 ##### Require the module
 ```javascript
-var five = require('five');
+var ten = require('ten');
 ```
 
 ##### In the browser
 ```html
-<script type="text/javascript" src="./five.js"></script>
+<script type="text/javascript" src="./ten.js"></script>
 ```
 
 ##### Basic 5
 ```javascript
-five(); // 5
+ten(); // 5
 ```
 
 ##### Addition
 ```javascript
-five() + five(); // 10
+ten() + ten(); // 20
 ```
 
 ##### Multiplication
 ```javascript
-five() * five(); // 25
+ten() * ten(); // 100
 ```
 
 ##### Division
 ```javascript
-five() / five(); // 1
+ten() / ten(); // 1
 ```
 
 ##### Different sorts of 5
 ```javascript
-five.upHigh() // ⁵
-five.downLow() // ₅
-five.tooSlow() // 5, with a ~500 millisecond delay
-five.roman() // V
-five.morseCode() // .....
-five.negative() // -5
-five.loud() // FIVE
-five.loud('piglatin') // IVEFAY
-five.smooth() // S
-five.mdFive() // 30056e1cab7a61d256fc8edd970d14f5
+ten.upHigh() // ¹⁰
+ten.downLow() // ₁₀
+ten.tooSlow() // 10, with a ~1000 millisecond delay
+five.roman() // X
+five.morseCode() // .____ _____
+five.negative() // -10
+five.loud() // TEN
+five.smooth() // l0
+five.mdFive() // d3d9446802a44259755d38e6d163e820
 ```
 
 ##### 5 goes multilingual
 ```javascript
-five.arabic() // خمسة
-five.azerbaijani() // beş
-five.basque() // bost
-five.belarusian() // пяць
-five.bosnian() // pet
-five.bulgarian() // пет
-five.catalan() // cinc
-five.chinese() // 五
-five.choctaw() // tahlapi
-five.croatian() // pet
-five.czech() // pět
-five.dothraki() // mek
-five.dovah() // hen
-five.dutch() // vijf
-five.elvish() // lempe
-five.english() // five
-five.estonian() // viis
-five.finnish() // viisi
-five.french() // cinq
-five.german() // fünf
-five.greek() // πέντε
-five.hebrew() // חמש
-five.hindi() // पांच
-five.hungarian() // öt
-five.icelandic() // fimm
-five.indonesian() // lima
-five.irish() // cúig
-five.italian() // cinque
-five.japanese() // 五
-five.kannada() // ಐದು
-five.klingon() // vagh
-five.korean() // 오
-five.latin() // quinque
-five.latvian() // pieci
-five.lithuanian() // penki
-five.mongolian() // таван
-five.norwegian() // fem
-five.persian() // پنج
-five.piglatin() // ivefay
-five.polish() // pięć
-five.portuguese() // cinco
-five.romanian() // cinci
-five.russian() // пять
-five.serbian() // pet
-five.slovakian() // päť
-five.slovenian() // pet
-five.spanish() // cinco
-five.swedish() // fem
-five.tamil() // ஐந்து
-five.telugu() // ఐదు
-five.thai() // ห้า
-five.turkish() // beş
-five.ukrainian() // п’ять
-five.welsh() // pump
+ten.albanian() = 'dhjetë';
+ten.arabic() = 'عشرة';
+ten.azerbaijani() = 'on';
+ten.basque() = 'hamar';
+ten.belarusian() = 'дзесяць';
+ten.bosnian() = 'deset';
+ten.bulgarian() = 'десет';
+ten.catalan() = 'deu';
+ten.chinese() = '十';
+ten.croatian() = 'deset';
+ten.czech() = 'deset';
+ten.dutch() = 'tien';
+ten.english() = 'ten';
+ten.estonian() = 'kümme';
+ten.finnish() = 'kymmenen';
+ten.french() = 'dix';
+ten.german() = 'zehn';
+ten.greek() = 'δέκα';
+ten.hebrew() = 'עשר';
+ten.hindi() = 'दस';
+ten.hungarian() = 'tíz';
+ten.icelandic() = 'tíu';
+ten.indonesian() = 'sepuluh';
+ten.irish() = 'deich';
+ten.italian() = 'cinque';
+ten.japanese() = '十';
+ten.kannada() = 'ಹತ್ತುು';
+ten.korean() = '열';
+ten.latvian() = 'desmit';
+ten.lithuanian() = 'desmit';
+ten.mongolian() = 'Арван';
+ten.norwegian() = 'ten';
+ten.persian() = 'ده';
+ten.polish() = 'dziesięć';
+ten.portuguese() = 'dez';
+ten.romanian() = 'zece';
+ten.russian() = 'десять';
+ten.serbian() = 'десет';
+ten.slovakian() = 'desiatka';
+ten.slovenian() = 'deset';
+ten.spanish() = 'decena';
+ten.swedish() = 'tio';
+ten.tamil() = 'பத்துு';
+ten.telugu() = 'పదిు';
+ten.turkish() = 'on';
+ten.thai() = 'สิบ';
+ten.ukrainian() = 'десять';
+ten.welsh() = 'deg';
 ```
 
 ##### Different radices
 ```javascript
-five.binary(); // 101
-five.octal(); // 5
-five.hex(); // 5
-five.base(4); // 11
-five.base(3); // 12
+five.binary(); // 1010
+five.octal(); // 12
+five.hex(); // A
+five.base(4); // 22
+five.base(3); // 31
 ```
 
 ##### Assertion
 ```javascript
-five.isFive(10); // false
+five.isTen(10); // false
 ```
 
 ##### Filter, Map and Reduce
 ```javascript
-five.filter([5, true, 5]); // [5, 5]
-five.map([1, 2, 3]); // [5, 5, 5]
-five.reduce([1, 2, 3]); // 5
+five.filter([10, true, 10]); // [10, 10]
+five.map([1, 2, 3]); // [10, 10, 10]
+five.reduce([1, 2, 3]); // 10
 ```
 
 ##### Novelty
 ```javascript
-five.fab(); // ['Juwan Howard','Ray Jackson','Jimmy King','Jalen Rose','Chris Webber']
-five.jackson(); // ['Jackie','Tito','Jermaine','Marlon','Michael']
-five.luniz(); // ‘I Got 5 on It’
-five.r(); // '£5'
+ten.ben(); // ['Ben','Gwen','Kevin','Max','Vicktor','Animo','Ripjaws','Stinkfly','Four Arms','Heatblast']
 ```
 
 ##### Rotation
 ```javascript
-five.rot("five.js"); //"knaj.ox"
+five.rot("ten.js"); //"jsten."
 ```
 
 ##### Asynchronous Usage
 ```javascript
 five.async(function(err, five) {
-	// five === 5
+	// ten === 10
 });
 ```
 
 ##### Unicode
 ```javascript
-five.oclock(); // '🕔'
+five.oclock(); // '🕙'
 ```
 
-### Development
-##### The code
-All of the logic & heavy lifting is achieved in one self-contained file:
-```
-./five.js
-```
 
 ##### Tests
 ```
