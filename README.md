@@ -1,6 +1,7 @@
 # ten.js
 
 A library to overcomplicate `10`.
+Based on https://github.com/jackdcrawford/five
 
 <img src="logo.png" width="300" alt="logo" />
 
@@ -149,5 +150,6 @@ ten.oclock(); // '🕙'
 ```
 npm test
 ```
+
 ### License
 MIT
